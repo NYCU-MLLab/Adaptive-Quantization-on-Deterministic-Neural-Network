@@ -6,6 +6,9 @@ Adaptive quantization neural network is a model that generalizes quantization mo
 "main_nonBayesbackup.py" is the main file that runs full precision model.
 
 "utils" contains quantizaiton models and vanilla models.
+## Result
+After the adaptive quantization method, the weights will prone to the representation values. In the picture below, the blue sticks are the histogram of weights and the black dashed lines are the representation values in the layer.
+![image](https://github.com/susan0720/Su-Ting-Chang-Adaptive-Quantization-on-Deterministic-Neural-Network/blob/master/nonBayesM2.png)
 ## Setting
 * Hardware:
   * CPU: Intel Core i7-4930K @3.40 GHz
